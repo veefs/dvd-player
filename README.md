@@ -2,6 +2,8 @@
 📀
 just a simple little cute DVD player
 
+![video](DVD_SIMULATOR.mp4)
+
 ##### Helpful code:
 
 Draws the rectangle & moves it
