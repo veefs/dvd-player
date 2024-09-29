@@ -84,13 +84,15 @@ void draw_moving_rectangle(SDL_Renderer* renderer, int speed, int start_pos_x, i
 ```
 collision system
 
-```int detect_collision(int pos_x, int pos_y, int rect_width, int rect_height) {
+```
+int detect_collision(int pos_x, int pos_y, int rect_width, int rect_height) {
     if ((pos_x + rect_width) >= window_width || pos_x <= 0 || pos_y + rect_height >= window_height || pos_y <= 0) {
         play_sound();  // Play the sound on collision
         return 1;
     } else {
         return 0;
     }
-}```
+}
+```
 
-co
+
